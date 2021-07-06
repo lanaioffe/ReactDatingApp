@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import DataList from './components/dataList';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Sveta's Dating App!</h1>
+      <h4>help Sveta find her match!</h4>
+      <DataList />
     </div>
   );
+  
 }
-
-export default App;
